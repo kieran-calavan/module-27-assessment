@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.App {
+  padding: 1em;
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 64px;
+}
+label {
+  display: inline-block;
+  width: 50px;
+}
+
+header {
+  box-shadow: 0 0 5px rgba(253, 255, 177, 0.8);
+}
+
+
+html {
+  font-family: 'helvetica neue', sans-serif;
+}
+
+thead th, tfoot th {
+  font-family: 'Roboto' sans-serif;
+}
+
+th {
+  letter-spacing: 1px;
+  padding: 15px;
+}
+
+td {
+  letter-spacing: 1px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  overflow:hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.content_td p {
+  max-width: 100%;
+  max-height: 100px;
+  overflow-y: auto;
+  text-overflow: ellipsis;
+}
+
+/* Column Size for thead */
+thead th:first-child,
+thead th:nth-child(2),
+thead th:nth-child(3),
+thead th:nth-child(6) {
+  width: 10%;
+}
+thead th:nth-child(4),
+thead th:nth-child(5) {
+  width: 30%
+}
+
+/* Column size for tbody */
+tbody tr:nth-child(odd){
+  background-color: #f2f0a0 ;
+}
+tbody td:first-child,
+tbody td:nth-child(2),
+tbody td:nth-child(3),
+tbody td:nth-child(6){
+  width: 10%
+}
+tbody td:nth-child(4),
+tbody td:nth-child(5){
+  width: 30%
+}
